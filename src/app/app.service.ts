@@ -4,8 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AppService {
-  test: string;
+  test = 'test';
   gitCommit = '--amend';
-
   constructor() { }
 }
